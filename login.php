@@ -9,5 +9,6 @@
 				</span>
 			</div>
 			<div class="button">Button</div>
+			<div class="btn">button</div>
 		</div>
 
