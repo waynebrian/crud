@@ -8,4 +8,6 @@
 					<a href="#">Forgot Password</a>
 				</span>
 			</div>
+			<div class="button">Button</div>
 		</div>
+
