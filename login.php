@@ -1,5 +1,6 @@
 <?php include('index.php'); ?>
 
+<div class="-pos">
 <div class="container">
 			<div class="block">
 				<h1 class="title">Login Form
@@ -33,4 +34,5 @@
 			</div>
 		
 		</div>
+</div>
 
