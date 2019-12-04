@@ -1,5 +1,9 @@
-.-pos {
+*
+{
+	background-image: url(https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/10/Sunflower_1300lede.jpg);
 
-	margin-top: 50px;
+	background-position: cover;
+
+	margin-top: 5px;
 
 }

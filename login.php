@@ -1,38 +1,67 @@
-<?php include('index.php'); ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CRUD WEBSITE</title>
+	<link rel="stylesheet" type="text/css" href=css/style.css>
 
-<div class="-pos">
-<div class="container">
-			<div class="block">
-				<h1 class="title">Login Form
-				</h1>
-					<div class="field">
-			  <p class="control has-icons-left has-icons-right">
-			    <input class="input is-medium" type="email" placeholder="Email" required>
-			    <span class="icon is-small is-left">
-			      <i class="far fa-user"></i>
-			    </span>
-			    <span class="icon is-small is-right">
-			      <i class="fas fa-check"></i>
-			    </span>
-			  </p>
-			</div>
-			<div class="field">
-			  <p class="control has-icons-left">
-			    <input class="input is-medium" type="password" placeholder="Password" required>
-			    <span class="icon is-small is-left">
-			      <i class="far fa-eye"></i>
-			    </span>
-			  </p>
-			</div>
-			<div class="field">
-			  <p class="control">
-			    <button class="button is-success is-medium">
-			      Login
-			    </button>
-			  </p>
-			</div>
-			</div>
-		
-		</div>
-</div>
 
+</head>
+
+
+  <body>
+
+     <center>
+	    <h1>Log In Form</h1>
+	    
+	    <form action="login.php" method="post">
+
+	    	<table>
+	    		<tr>
+	    			<td>Email Address:</td>
+	    			<td>
+	    				<input type="text" name="user">
+	    			</td>
+	    		</tr>
+
+	    		<tr>
+	    			<td>Password:</td>
+	    			<td>
+	    				<input type="password" name="user_pass">
+	    			</td>
+	    		</tr>
+
+	    		<tr>
+	    			<td>
+	    				<input type="submit" name="submit"
+	    				value="Login">
+	    			</td>
+	    			<td>
+	    				<a href="index.php">Registration</a>
+	    			</td>
+	    		</tr>
+
+	    		 <tr>
+
+					<td> 
+						     	 
+				    </td>
+
+				    <td>
+					    <a href="front.php">
+					    Home</a>
+					</td>
+				 </tr>
+
+
+	    	</table>
+	    	
+
+
+	    </form>
+
+
+     </center>
+
+  </body>
+
+</html>
